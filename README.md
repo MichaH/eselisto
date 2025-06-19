@@ -82,7 +82,9 @@ Modular, versioned endpoints (`/api/v1/...`) including:
 
 ---
 
+For those interested in the technical foundations of **eselisto**, the [`concept/`](./concept) folder contains the full data model and early design artifacts. You can explore the [data model overview](./concept/datamodel.md), view the [entity-relationship diagram](./concept/datamodelERM.jpg), or dive into the [SQL DDL definitions](./concept/datamodelCreates.sql). Each main entity of the system is represented as a Java class in [`concept/entities/`](./concept/entities), including [`User`](./concept/entities/user.java), [`Vacation`](./concept/entities/vavation.java), [`Category`](./concept/entities/category.java), [`Item`](./concept/entities/item.java), [`Packlist`](./concept/entities/packlist.java), and [`Nesting`](./concept/entities/nesting.java).
 
+--- 
 
 <a href="https://github.com/MichaH/eselisto">eseListo</a> © 2025 by <a href="https://www.michaelhofmann.net/">Michael Hofmann</a> is licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International</a><br><br>
 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
