@@ -1,4 +1,4 @@
 # eselisto
 
-<a href="https://github.com/MichaH/eselisto">eseListo</a> © 2025 by <a href="https://www.michaelhofmann.net/">Michael Hofmann</a> is licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International</a>
+<a href="https://github.com/MichaH/eselisto">eseListo</a> © 2025 by <a href="https://www.michaelhofmann.net/">Michael Hofmann</a> is licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International</a><br><br>
 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
