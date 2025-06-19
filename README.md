@@ -4,6 +4,8 @@
 
 **eselisto** is a powerful, flexible, and user-centric application for managing packing lists for vacations, trips, outdoor adventures, and more. Designed for both individuals and shared environments, eselisto helps you organize what to take, where it goes, and what still needs attention — so nothing gets left behind.
 
+![logo](branding/logo.png)
+
 ---
 
 ## 🚀 Features
