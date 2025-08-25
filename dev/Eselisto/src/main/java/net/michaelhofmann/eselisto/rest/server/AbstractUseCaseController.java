@@ -5,9 +5,9 @@
  *  http://www.OrangeObjects.de
  * 
  */
+
 package net.michaelhofmann.eselisto.rest.server;
 
-import io.javalin.Javalin;
 import net.michaelhofmann.eselisto.db.store.EselDatabase;
 import net.michaelhofmann.eselisto.rest.requests.MultiValidator;
 import org.apache.commons.configuration2.Configuration;
@@ -16,34 +16,33 @@ import org.apache.commons.configuration2.Configuration;
  * @author Michael.Hofmann@OrangeObjects.de
  *
  */
-public class ApiController extends AbstractUseCaseController {
+public class AbstractUseCaseController {
 
-    private final InfoController infoCtrl;
-    private final UserController userCtrl;
+    protected final Configuration config;
+    protected final EselDatabase data;
+    protected final MultiValidator validator;
 
     /* ************************************************************************
         C o n s t r u c t o r
      **************************************************************************/
-    
-    public ApiController(Configuration config, EselDatabase data,
+
+    public AbstractUseCaseController(Configuration config, EselDatabase data,
             MultiValidator validator) {
-        super(config, data, validator);
-        infoCtrl = new InfoController(config, data, validator);
-        userCtrl = new UserController(config, data, validator);
+        this.config = config;
+        this.data = data;
+        this.validator = validator;
     }
 
     /* ************************************************************************
         M i s c
      **************************************************************************/
     
-    public void registerRoutes(Javalin app) {
-        app.get("/api/version", ctx -> infoCtrl.getVersion(ctx));
-        // Users
-        app.get("/api/production/users/{userId}", ctx -> userCtrl.getUserById(ctx));
-        app.post("/api/production/users", ctx -> userCtrl.createUser(ctx));
-    }
+
 
     /* ************************************************************************
         G e t t e r  und  S e t t e r
      **************************************************************************/
+
+
+
 }
